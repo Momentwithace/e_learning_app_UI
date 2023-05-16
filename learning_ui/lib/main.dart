@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     );
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'E-Learning App UI',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

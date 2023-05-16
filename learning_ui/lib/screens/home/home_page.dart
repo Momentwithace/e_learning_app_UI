@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar:const _buildBottomNavBar(),
+      bottomNavigationBar:const _BuildBottomNavBar(),
     );
   }
 
@@ -77,8 +77,8 @@ class HomePage extends StatelessWidget {
   }
 }
 
-class _buildBottomNavBar extends StatelessWidget {
-  const _buildBottomNavBar({
+class _BuildBottomNavBar extends StatelessWidget {
+  const _BuildBottomNavBar({
     super.key,
   });
 
