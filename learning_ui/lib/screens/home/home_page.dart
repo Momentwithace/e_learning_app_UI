@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
             const EmojiText(),
             const SearchInput(),
             FutureCourse(),
-            const ActiveCourse()
+            ActiveCourse()
           ],
         ),
       ),

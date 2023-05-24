@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:learning_ui/constants/color.dart';
 import 'package:learning_ui/screens/home/widget/category_title.dart';
-import 'package:percent_indicator/circular_percent_indicator.dart';
+import 'package:percent_indicator/percent_indicator.dart';
 
 class ActiveCourse extends StatelessWidget {
-  const ActiveCourse({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -37,9 +36,9 @@ class ActiveCourse extends StatelessWidget {
                       width: 60,),
                     ),
                     const SizedBox(width: 20,),
-                    Column(
+                    const Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           "Symetry theory",
                           style: TextStyle(
