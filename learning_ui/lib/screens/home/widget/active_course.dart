@@ -61,7 +61,7 @@ class ActiveCourse extends StatelessWidget {
                   ],
                 ),
                 CircularPercentIndicator(
-                  radius: 60.0,
+                  radius: 30.0,
                   lineWidth: 5.0,
                   percent: 0.61,
                   center: const Text("61",
